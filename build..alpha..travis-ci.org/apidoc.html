@@ -1,0 +1,335 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="https://github.com/austinkelleher/giphy-api"
+
+    >giphy-api (v1.2.5)</a>
+</h1>
+<h4>JavaScript module for the giphy.com API that supports promises and callbacks.</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.giphy-api">module giphy-api</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.giphy-api.giphy-api">
+            function <span class="apidocSignatureSpan"></span>giphy-api
+            <span class="apidocSignatureSpan">(apiKey, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.giphy-api.toString">
+            function <span class="apidocSignatureSpan">giphy-api.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">giphy-api.</span>http</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">giphy-api.</span>http_browser</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.giphy-api.http">module giphy-api.http</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.giphy-api.http.get">
+            function <span class="apidocSignatureSpan">giphy-api.http.</span>get
+            <span class="apidocSignatureSpan">(options, resolve, reject)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.giphy-api.http_browser">module giphy-api.http_browser</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.giphy-api.http_browser.get">
+            function <span class="apidocSignatureSpan">giphy-api.http_browser.</span>get
+            <span class="apidocSignatureSpan">(options, resolve, reject)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.giphy-api.toString">module giphy-api.toString</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.giphy-api.toString.toString">
+            function <span class="apidocSignatureSpan">giphy-api.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.giphy-api" id="apidoc.module.giphy-api">module giphy-api</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.giphy-api.giphy-api" id="apidoc.element.giphy-api.giphy-api">
+        function <span class="apidocSignatureSpan"></span>giphy-api
+        <span class="apidocSignatureSpan">(apiKey, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">giphy-api = function (apiKey, options) {
+  return new GiphyAPI(apiKey, options);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.giphy-api.toString" id="apidoc.element.giphy-api.toString">
+        function <span class="apidocSignatureSpan">giphy-api.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">toString = function () {
+    return text;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.giphy-api.http" id="apidoc.module.giphy-api.http">module giphy-api.http</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.giphy-api.http.get" id="apidoc.element.giphy-api.http.get">
+        function <span class="apidocSignatureSpan">giphy-api.http.</span>get
+        <span class="apidocSignatureSpan">(options, resolve, reject)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">get = function (options, resolve, reject) {
+  var httpService = options.https ? https : http;
+  var request = options.request;
+  var timeout = options.timeout;
+  var fmt = options.fmt;
+
+  request.withCredentials = false;
+
+  var req = httpService.get(request, function (response) {
+    var body = &#x27;&#x27;;
+    response.on(&#x27;data&#x27;, function (d) {
+      body += d;
+    });
+    response.on(&#x27;end&#x27;, function () {
+      if (fmt !== &#x27;html&#x27;) {
+        body = JSON.parse(body);
+      }
+      resolve(body);
+    });
+  });
+
+  req.on(&#x27;error&#x27;, function (err) {
+    reject(err);
+  });
+
+  req.on(&#x27;socket&#x27;, function (socket) {
+    socket.setTimeout(timeout);
+    socket.on(&#x27;timeout&#x27;, function () {
+      req.abort();
+    });
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  },
+  https: this.https,
+  timeout: this.timeout,
+  fmt: options.query &#x26;&#x26; options.query.fmt
+};
+
+var makeRequest = function (resolve, reject) {
+  httpService.<span class="apidocCodeKeywordSpan">get</span>(httpOptions, resolve, reject);
+};
+
+if (callback) {
+  var resolve = function (res) {
+    callback(null, res);
+  };
+  var reject = function (err) {
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.giphy-api.http_browser" id="apidoc.module.giphy-api.http_browser">module giphy-api.http_browser</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.giphy-api.http_browser.get" id="apidoc.element.giphy-api.http_browser.get">
+        function <span class="apidocSignatureSpan">giphy-api.http_browser.</span>get
+        <span class="apidocSignatureSpan">(options, resolve, reject)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">get = function (options, resolve, reject) {
+  var request = options.request;
+  var timeout = options.timeout;
+  var fmt = options.fmt;
+
+  var timerId = setTimeout(function () {
+    reject(new Error(&#x27;Timeout while fetching asset&#x27;));
+  }, timeout);
+
+  var xhr = new XMLHttpRequest();
+  xhr.withCredentials = false;
+
+  var onFail = function (err) {
+    clearTimeout(timerId);
+    err = err || new Error(&#x27;Giphy API request failed!&#x27;);
+    reject(err);
+  };
+
+  xhr.addEventListener(&#x27;error&#x27;, onFail);
+  xhr.addEventListener(&#x27;abort&#x27;, onFail);
+  xhr.addEventListener(&#x27;load&#x27;, function () {
+    clearTimeout(timerId);
+    var body = xhr.response;
+
+    if (fmt !== &#x27;html&#x27;) {
+      body = JSON.parse(body);
+    }
+    resolve(body);
+  });
+
+  var protocol = options.https ? &#x27;https&#x27; : &#x27;http&#x27;;
+  var host = request.host;
+  var path = request.path;
+  var url = protocol + &#x27;://&#x27; + host + path;
+
+  xhr.open(&#x27;GET&#x27;, url, true);
+  xhr.send();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  },
+  https: this.https,
+  timeout: this.timeout,
+  fmt: options.query &#x26;&#x26; options.query.fmt
+};
+
+var makeRequest = function (resolve, reject) {
+  httpService.<span class="apidocCodeKeywordSpan">get</span>(httpOptions, resolve, reject);
+};
+
+if (callback) {
+  var resolve = function (res) {
+    callback(null, res);
+  };
+  var reject = function (err) {
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.giphy-api.toString" id="apidoc.module.giphy-api.toString">module giphy-api.toString</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.giphy-api.toString.toString" id="apidoc.element.giphy-api.toString.toString">
+        function <span class="apidocSignatureSpan">giphy-api.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
