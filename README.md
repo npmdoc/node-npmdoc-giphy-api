@@ -1,4 +1,7 @@
-# api documentation for  [giphy-api (v1.2.5)](https://github.com/austinkelleher/giphy-api)  [![npm package](https://img.shields.io/npm/v/npmdoc-giphy-api.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-giphy-api) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-giphy-api.svg)](https://travis-ci.org/npmdoc/node-npmdoc-giphy-api)
+# npmdoc-giphy-api
+
+#### basic api documentation for  [giphy-api (v1.2.5)](https://github.com/austinkelleher/giphy-api)  [![npm package](https://img.shields.io/npm/v/npmdoc-giphy-api.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-giphy-api) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-giphy-api.svg)](https://travis-ci.org/npmdoc/node-npmdoc-giphy-api)
+
 #### JavaScript module for the giphy.com API that supports promises and callbacks.
 
 [![NPM](https://nodei.co/npm/giphy-api.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/giphy-api)
@@ -73,7 +76,8 @@
         "prepublish": "npm run build",
         "test": "mocha --ui bdd --reporter spec ./test"
     },
-    "version": "1.2.5"
+    "version": "1.2.5",
+    "bin": {}
 }
 ```
 
